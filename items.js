@@ -1024,13 +1024,3 @@ var items = [{
   "has_variations": false,
   "used_manufacturer": false
 }];
-//show me how to find which items made wtih eight or more materials
-var muchoMaterials = items.filter(function(items){
-  return items.materials >= 8
-})
-var titleOfMaterials = muchoMaterials.map(function(item){
-  return item.title
-})
-console.log(titleOfMaterials)
-
-// keep getting an empty array.
